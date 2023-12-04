@@ -1,16 +1,28 @@
-.aboutMeBox {
-    border: white 2px solid;
-    border-radius: 7px;
-    box-shadow: 5px 5px 5px #efe8e58e;
-    opacity: 0.93;
-    background-color: rgb(31 41 55);
-    color: whitesmoke;
-    margin-right: 2%;
-    margin-left: 2%;
+.aboutContainer {
+    gap: 35px;
 }
 
 .header {
 
     margin-left: 2%;
     color: whitesmoke;
+}
+
+
+.aboutMeBox {
+    /* max-width: 60%; */
+    float: left;
+    border: white 2px solid;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #efe8e58e;
+    opacity: 0.93;
+    background-color: rgb(31 41 55);
+    margin-left: 2%;
+    color: whitesmoke;
+    overflow-y: scroll;
+    margin-right: 35px;
+}
+
+.links {
+    font-size: 25px;
 }

@@ -7,6 +7,7 @@ import { useRef } from 'react'
 import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
+import CV from './components/CV';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
   return (
     <>
       <div className='containerDiv'>
-        <Parallax className='para' pages={5} ref={paraRef} style={{}}>
+        <Parallax className='para' pages={4} ref={paraRef} style={{}}>
           <ParallaxLayer offset={0} speed={1} style={{}}>
             <LandingPage></LandingPage>
           </ParallaxLayer>
@@ -37,13 +38,13 @@ function App() {
             <Projects />
           </ParallaxLayer>
           <ParallaxLayer offset={3} speed={1} style={{}}>
-            <h1>Section 4</h1>
-          </ParallaxLayer>
-          <ParallaxLayer offset={4} speed={1} style={{}}>
-            <h1>Section 5</h1>
+            <CV></CV>
           </ParallaxLayer>
         </Parallax>
+        <p className='creditInfo'>&copy; Site creation: Alx Askw | Photo credit: {backgroundImageVariations.backgroundThree.author}</p>
+
       </div>
+
     </>
   );
 }
