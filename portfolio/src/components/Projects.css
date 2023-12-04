@@ -26,6 +26,12 @@
     border: 2px solid red;
     margin-right: 2%;
     width: 25%;
+    border: white 2px solid;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #efe8e58e;
+    opacity: 0.93;
+    background-color: rgb(31 41 55);
+    color: whitesmoke;
 }
 
 .projectItem {
@@ -47,4 +53,10 @@
 .proDesc {
     padding-top: 6px;
     font-size: 15px;
+}
+
+.icons {
+    justify-content: center;
+    width: 100px;
+    height: 100px;
 }

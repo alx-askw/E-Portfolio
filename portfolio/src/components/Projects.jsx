@@ -1,10 +1,8 @@
 import './Projects.css'
-// import ProjectBox from './ProjectsPageComponents/ProjectBox';
-
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMap, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-
+import { faReact, faJs, faPython, faGithub, faJava, faNodeJs, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
 function Projects({ scrollTo }) {
 
@@ -40,6 +38,20 @@ function Projects({ scrollTo }) {
     }
     const projectArray = Object.values(exampleProjects);
 
+    const icons = {
+        1: faReact,
+        2: faJs,
+        3: faPython,
+        4: faGithub,
+        5: faJava,
+        6: faNodeJs,
+        7: faCss3,
+        8: faHtml5
+
+    }
+    const iconArray = Object.values(icons);
+
+
 
     return (
         <>
@@ -55,7 +67,13 @@ function Projects({ scrollTo }) {
                             </div>
                         ))
                         }</div>
-                    <div className='techSkills'>test2</div>
+                    <div className='techSkills'>
+                        {iconArray.map((icons, index) => (
+                            <FontAwesomeIcon className="icons" key={index} icon={icons} />
+                        ))
+                        }
+                    </div>
+
                 </div>
             </div>
         </>
