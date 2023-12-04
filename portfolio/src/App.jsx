@@ -6,6 +6,7 @@ import { useRef } from 'react'
 
 import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
+import AboutMe from './components/AboutMe';
 
 function App() {
 
@@ -30,10 +31,10 @@ function App() {
             <LandingPage></LandingPage>
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={1} style={{}}>
-            <Projects />
+            <AboutMe></AboutMe>
           </ParallaxLayer>
           <ParallaxLayer offset={2} speed={1} style={{}}>
-            <h1>Section 3</h1>
+            <Projects />
           </ParallaxLayer>
           <ParallaxLayer offset={3} speed={1} style={{}}>
             <h1>Section 4</h1>

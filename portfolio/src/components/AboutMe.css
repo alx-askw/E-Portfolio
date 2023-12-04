@@ -1,0 +1,16 @@
+.aboutMeBox {
+    border: white 2px solid;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #efe8e58e;
+    opacity: 0.93;
+    background-color: rgb(31 41 55);
+    color: whitesmoke;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.header {
+
+    margin-left: 2%;
+    color: whitesmoke;
+}
