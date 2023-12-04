@@ -42,13 +42,13 @@
 
 
 .faArrow {
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 .typeWriter {
     display: flex;
     justify-content: center;
-    color: antiquewhite;
+    color: whitesmoke;
     font-size: 80px;
     border: white 2px solid;
     border-radius: 7px;
@@ -72,7 +72,7 @@
     border-radius: 7px;
     border: white 2px solid;
     box-shadow: 5px 5px 5px #efe8e58e;
-    color: antiquewhite;
+    color: whitesmoke;
     font-size: 80px;
     background-color: rgb(31 41 55);
 }

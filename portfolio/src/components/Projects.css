@@ -1,0 +1,50 @@
+.projectsContainer {
+    display: flex;
+    gap: 35px;
+}
+
+.projectsList {
+    border: 2px solid red;
+    margin-left: 2%;
+    width: 70%;
+    overflow-y: scroll;
+    max-height: 550px;
+    border: white 2px solid;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #efe8e58e;
+    opacity: 0.93;
+    background-color: rgb(31 41 55);
+    color: whitesmoke;
+}
+
+.title {
+    margin-left: 2%;
+    color: whitesmoke;
+}
+
+.techSkills {
+    border: 2px solid red;
+    margin-right: 2%;
+    width: 25%;
+}
+
+.projectItem {
+    display: flex;
+    gap: 35px;
+}
+
+
+.proImage {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.proName {
+    padding-top: 16px;
+    font-size: 21px;
+}
+
+.proDesc {
+    padding-top: 6px;
+    font-size: 15px;
+}
