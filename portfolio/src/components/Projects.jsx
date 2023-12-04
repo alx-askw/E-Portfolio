@@ -15,24 +15,53 @@ function Projects({ scrollTo }) {
             projectLink: 'https://github.com/alx-askw/E-Portfolio'
         },
         two: {
-            name: "Project 2",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+            name: "Music Interface",
+            description: "A desktop application made with Electron. The goal of this project is to create a lightweight music player, primarily for music on a users computer (rather than streaming). The twist is that it has hooks for http requests so users can make third party apps",
+            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+            projectLink: 'https://github.com/alx-askw/music-interface'
         },
+        // DFX: {
+        //     name: "DFX Clone",
+        //     description: "A clone of Digital Future propietry ",
+        //     imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+        //     projectLink: 'https://github.com/alx-askw/music-interface'
+        // },
         three: {
-            name: "Project 3",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+            name: "Chitter Challenge",
+            description: "A full stack clone of Twitter/X using the MERN stack",
+            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+            projectLink: 'https://github.com/alx-askw/chitterChallenge'
         },
         four: {
-            name: "Project 4",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+            name: "Rock Paper Scissors",
+            description: "Challenge set by Digital Futures. A express server for player playing rock paper scissors (and lizard, spock), that incorporates routes.",
+            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+            projectLink: 'https://github.com/alx-askw/rockPaperScissorsChallenge'
         },
         five: {
-            name: "Project 5",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+            name: "News Summary Challenge",
+            description: "Challenge set by Digital Futures. A react site that uses Axios to request the latest news from the Guardian API.",
+            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+            projectLink: 'https://github.com/alx-askw/NewsSummaryChallenge'
+        },
+
+        six: {
+            name: "Scrabble",
+            description: "Scrabble scoring logic written in Java",
+            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+            projectLink: 'https://github.com/alx-askw/Java-Scrabble-Challenge'
+        },
+        seven: {
+            name: "Bank Challenge",
+            description: "A challenge set by Digital Futures. With test driven development",
+            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+            projectLink: 'https://github.com/alx-askw/BankChallenge'
+        },
+        eight: {
+            name: "Airport Challenge",
+            description: "A challenge set by Digital Futures. With test driven development",
+            imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+            projectLink: 'https://github.com/alx-askw/airport-challenge'
         },
 
     }
